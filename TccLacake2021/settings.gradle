@@ -1,0 +1,2 @@
+rootProject.name = "TccLacake2021"
+include ':app'

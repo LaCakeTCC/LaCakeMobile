@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TccLacake2021</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Navegação</string>
+    <string name="title_notifications">Pedidos</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Digite o E-mail</string>
+    <string name="prompt_password">Digite a senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Logar</string>
+    <string name="welcome">"Bem vindo "</string>
+    <string name="invalid_username">Usuário inválido</string>
+    <string name="invalid_password">Senha precisa ter mais de 5 caractéres</string>
+    <string name="login_failed">"Login falhou"</string>
+</resources>
