@@ -1,0 +1,173 @@
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:background="@drawable/background_tela_de_pagamento"
+     tools:context=".tela_pagamento"
+    >
+
+   <RelativeLayout
+    android:id="@+id/voltarEpagamento"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    >
+
+    <android.support.v7.widget.AppCompatButton
+        style="@style/voltar"
+        android:id="@+id/voltarBotao"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toRightOf="@id/texto_pagamento"
+        />
+
+    <TextView
+        style="@style/textoTitulo"
+        android:id="@+id/texto_pagamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formas de pagamento"
+
+        />
+
+</RelativeLayout>
+
+
+    <View
+    android:id="@+id/divisor_pagamento1"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="35dp"
+    android:background="@color/marrom1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/voltarEpagamento"
+    />
+
+    <RelativeLayout
+        android:id="@+id/adicionarCartao"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divisor_pagamento1">
+
+        <TextView
+            android:id="@+id/texto_cartão"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Cartão de Crédito"
+            android:textSize="30dp"
+            android:textColor="@color/vermelhoForte2"/>
+
+        <android.support.v7.widget.AppCompatButton
+            style="@style/Plus"
+            android:id="@+id/mais_botao"
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divisor_pagamento2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/marrom1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adicionarCartao"
+        />
+
+    <RelativeLayout
+        android:id="@+id/adicionarValeRefeição"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divisor_pagamento2">
+
+        <TextView
+            android:id="@+id/texto_veleRefeição"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Vale-refeição"
+            android:textSize="30dp"
+            android:textColor="@color/vermelhoForte2"/>
+
+        <android.support.v7.widget.AppCompatButton
+            style="@style/Plus"
+            android:id="@+id/mais_botao2"
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divisor_pagamento3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/marrom1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adicionarValeRefeição"
+        />
+
+    <RelativeLayout
+        android:id="@+id/adicionarValeAlimentação"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divisor_pagamento3"
+        >
+
+        <TextView
+            android:id="@+id/texto_valeAlimentação"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Vale-Alimentação"
+            android:textSize="30dp"
+            android:textColor="@color/vermelhoForte2"/>
+
+        <android.support.v7.widget.AppCompatButton
+            style="@style/Plus"
+            android:id="@+id/mais_botao3"
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <style name="apptheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+    <style name="ConstantComponents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">700dp</item>
+        <item name="android:background">@drawable/container_components</item>
+    </style>
+
+    <style name="Edit_Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginLeft">34dp</item>
+        <item name="android:layout_marginRight">34dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">325dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginLeft">34dp</item>
+        <item name="android:layout_marginRight">34dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+    <style name="Facebook">
+        <item name="android:layout_width">325dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginLeft">34dp</item>
+        <item name="android:layout_marginRight">34dp</item>
+        <item name="android:background">@drawable/ic_facebook_black</item>
+    </style>
+
+    <style name="Google">
+        <item name="android:layout_width">325dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginLeft">34dp</item>
+        <item name="android:layout_marginRight">34dp</item>
+        <item name="android:background">@drawable/ic_google_black</item>
+    </style>
+
+    <style name="Plus">
+        <item name="android:layout_width">325dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginLeft">34dp</item>
+        <item name="android:layout_marginRight">34dp</item>
+        <item name="android:background">@drawable/ic_plus</item>
+    </style>
+
+    <style name="voltar">
+        <item name="android:layout_width">325dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginLeft">34dp</item>
+        <item name="android:layout_marginRight">34dp</item>
+        <item name="android:background">@drawable/ic_baseline_arrow_back_ios_24</item>
+    </style>
+
+    <style name="textoTitulo">
+        <item name="android:textColor">@color/vermelhoForte2</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+
+
+
+
+</resources>
