@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_tela_cadastro"
+    tools:context=".tela_cadastro">
+
+    <View
+        android:id="@+id/fundobranco"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_padrao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/ic_cobertura1"
+            android:scaleX="-1.5" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_cobertura2"
+            android:scaleX="1.5" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/perfil_config_pesquisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/barra_de_pesquisa"
+            style="@style/Edit_Text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/button_config"
+            android:layout_toRightOf="@id/foto_de_perfil"
+            android:hint="Pesquise bolos e lojas" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_config"
+            style="@style/config"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="3dp" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/foto_de_perfil"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            app:cardCornerRadius="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sem_foto_de_perfil"
+
+                />
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/filtro_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="24dp"
+        android:text="Filtros:"
+        android:textColor="@color/branco1"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/perfil_config_pesquisa" />
+
+    <RelativeLayout
+        android:id="@+id/filtros_mais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/filtro_text">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/filtro1"
+            style="@style/filtros"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="12dp"
+            android:text="Encomenda"
+            android:textColor="@color/branco1"
+            android:textSize="11dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/filtro2"
+            style="@style/filtros"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/filtro1"
+            android:text="Bolos"
+            android:textColor="@color/branco1"
+            android:textSize="11dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/filtro3"
+            style="@style/filtros"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/filtro2"
+            android:text="Cupcake"
+            android:textColor="@color/branco1"
+            android:textSize="11dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/more"
+            style="@style/filtros"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:text="mais:"
+            android:textColor="@color/branco1"
+            android:textSize="11dp"
+
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textCategorias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="24dp"
+        android:text="Categorias:"
+        android:textColor="@color/vermelhoForte"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/filtros_mais" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/bolosParaFestas"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textCategorias">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/red_velvet" />
+
+        <TextView
+            style="@style/textContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:padding="5dp"
+            android:text="Bolo para festas "
+            android:textColor="@color/vermelhoForte2"
+            android:textSize="15dp" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/bolosEncomendaveis"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bolosParaFestas">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cake_decorate" />
+
+        <TextView
+            style="@style/textContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:padding="5dp"
+            android:text="Bolos encomendáveis "
+            android:textColor="@color/vermelhoForte2"
+            android:textSize="15dp" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textPromoções"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="24dp"
+        android:text="Promoções:"
+        android:textColor="@color/vermelhoForte"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bolosEncomendaveis" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardPromoçõescoes"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textPromoções">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cafe_com_bolo" />
+
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:id="@+id/menu_inferior"
+        style="@style/MenuComponets"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@id/menu_inferior"
+        app:layout_constraintEnd_toEndOf="@id/menu_inferior"
+        app:layout_constraintStart_toStartOf="@id/menu_inferior">
+
+        <ImageButton
+            android:id="@+id/botaoHome"
+            style="@style/btHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/texthome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/branco1"
+            android:layout_marginTop="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/botaoNavegacao"
+            style="@style/btGps"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@id/botaoHome" />
+
+        <TextView
+            android:id="@+id/textNavegação"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Navegação"
+            android:layout_marginLeft="38dp"
+            android:layout_toRightOf="@id/texthome"
+            android:textColor="@color/branco1"
+            android:layout_marginTop="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/botaPedidos"
+            style="@style/btPedidos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/botaoNavegacao" />
+
+        <TextView
+            android:id="@+id/textPedidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pedidos"
+            android:layout_marginLeft="28dp"
+            android:layout_toRightOf="@id/textNavegação"
+            android:textColor="@color/branco1"
+            android:layout_marginTop="40dp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

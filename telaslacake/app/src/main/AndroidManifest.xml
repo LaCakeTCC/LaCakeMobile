@@ -11,7 +11,9 @@
         android:theme="@style/apptheme">
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".tela_cadastro"></activity>
-        <activity android:name=".tela_pagamento">
+        <activity android:name=".tela_pagamento"></activity>
+        <activity android:name=".tela_principal"></activity>
+        <activity android:name=".tela_de_pedidos">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

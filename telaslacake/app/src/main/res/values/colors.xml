@@ -13,7 +13,9 @@
     <color name="vermelhoCoral">#694343</color>
     <color name="vermelhoForte2">#791B1B</color>
     <color name="vermelhoForte">#9e0a0a</color>
+    <color name="marrom2">#8D4141</color>
     <color name="marrom1">#8083635C</color>
     <color name="vermelhoForteTranparente">#809E0A0A</color>
     <color name="cinzaTranparente">#40C4C4C4</color>
+    <color name="carmesin">#8F2424</color>
 </resources>
