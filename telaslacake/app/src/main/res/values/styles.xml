@@ -9,6 +9,11 @@
         <item name="android:layout_height">700dp</item>
         <item name="android:background">@drawable/container_components</item>
     </style>
+    <style name="ConstantComponents_fale_conosco">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">900dp</item>
+        <item name="android:background">@drawable/container_components</item>
+    </style>
 
     <style name="MenuComponets">
         <item name="android:layout_width">match_parent</item>
@@ -65,6 +70,16 @@
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:padding">12dp</item>
         <item name="android:background">@drawable/button</item>
+    </style>
+
+    <style name="Button_fale_conosco">
+        <item name="android:layout_width">325dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginLeft">34dp</item>
+        <item name="android:layout_marginRight">34dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@drawable/button_fale_conosco</item>
     </style>
 
     <style name="Facebook">

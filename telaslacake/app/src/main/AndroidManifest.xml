@@ -13,14 +13,14 @@
         <activity android:name=".tela_cadastro"></activity>
         <activity android:name=".tela_pagamento"></activity>
         <activity android:name=".tela_principal"></activity>
-        <activity android:name=".tela_de_pedidos">
-
+        <activity android:name=".tela_fale_conosco">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".tela_de_pedidos"></activity>
     </application>
 
 </manifest>
