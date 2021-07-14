@@ -4,11 +4,11 @@
      android:layout_height="match_parent"
      xmlns:app="http://schemas.android.com/apk/res-auto"
      android:background="@drawable/background_padrao"
-     tools:context=".tela_pagamento"
+     tools:context=".tela_sobre"
     >
 
    <RelativeLayout
-    android:id="@+id/voltarEpagamento"
+    android:id="@+id/voltarESobre"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="30dp"
@@ -23,15 +23,15 @@
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginLeft="20dp"
-        app:layout_constraintLeft_toRightOf="@id/texto_pagamento"
+        app:layout_constraintLeft_toRightOf="@id/texto_sobre"
         />
 
     <TextView
         style="@style/textoTitulo"
-        android:id="@+id/texto_pagamento"
+        android:id="@+id/texto_sobre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Formas de pagamento"
+        android:text="Sobre o Aplicativo"
 
         />
 
@@ -39,7 +39,7 @@
 
 
     <View
-    android:id="@+id/divisor_pagamento1"
+    android:id="@+id/divisor_sobre1"
     android:layout_width="match_parent"
     android:layout_height="1dp"
     android:layout_marginLeft="20dp"
@@ -49,24 +49,24 @@
     android:background="@color/marrom1"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/voltarEpagamento"
+    app:layout_constraintTop_toBottomOf="@id/voltarESobre"
     />
 
     <RelativeLayout
-        android:id="@+id/adicionarCartao"
+        android:id="@+id/adicionar_quem_somos"
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/divisor_pagamento1">
+        app:layout_constraintTop_toBottomOf="@id/divisor_sobre1">
 
         <TextView
-            android:id="@+id/texto_cartão"
+            android:id="@+id/texto_quem_somos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="Cartão de Crédito"
+            android:text="Quem Somos"
             android:textSize="25dp"
             android:textColor="@color/vermelhoForte2"/>
 
@@ -81,7 +81,7 @@
     </RelativeLayout>
 
     <View
-        android:id="@+id/divisor_pagamento2"
+        android:id="@+id/divisor_sobre2"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_centerVertical="true"
@@ -91,24 +91,24 @@
         android:background="@color/marrom1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/adicionarCartao"
+        app:layout_constraintTop_toBottomOf="@id/adicionar_quem_somos"
         />
 
     <RelativeLayout
-        android:id="@+id/adicionarValeRefeição"
+        android:id="@+id/adicionar_versao_do_software"
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/divisor_pagamento2">
+        app:layout_constraintTop_toBottomOf="@id/divisor_sobre2">
 
         <TextView
-            android:id="@+id/texto_veleRefeição"
+            android:id="@+id/texto_versao_do_software"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="Vale-refeição"
+            android:text="Versão do Software"
             android:textSize="25dp"
             android:textColor="@color/vermelhoForte2"/>
 
@@ -123,7 +123,7 @@
     </RelativeLayout>
 
     <View
-        android:id="@+id/divisor_pagamento3"
+        android:id="@+id/divisor_sobre3"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_centerVertical="true"
@@ -133,25 +133,25 @@
         android:background="@color/marrom1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/adicionarValeRefeição"
+        app:layout_constraintTop_toBottomOf="@id/adicionar_versao_do_software"
         />
 
     <RelativeLayout
-        android:id="@+id/adicionarValeAlimentação"
+        android:id="@+id/adicionar_informações_legais"
         android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/divisor_pagamento3"
+        app:layout_constraintTop_toBottomOf="@id/divisor_sobre3"
         >
 
         <TextView
-            android:id="@+id/texto_valeAlimentação"
+            android:id="@+id/texto_informações_legais"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="Vale-Alimentação"
+            android:text="Informações Legais"
             android:textSize="25dp"
             android:textColor="@color/vermelhoForte2"/>
 
@@ -164,6 +164,96 @@
             android:layout_alignParentRight="true"
             />
     </RelativeLayout>
+
+    <View
+        android:id="@+id/divisor_sobre4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/marrom1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adicionar_informações_legais"
+        />
+
+    <RelativeLayout
+        android:id="@+id/adicionar_perguntas_frequentes"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divisor_sobre4"
+        >
+
+        <TextView
+            android:id="@+id/texto_perguntas_frequentes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Perguntas Frequentes"
+            android:textSize="25dp"
+            android:textColor="@color/vermelhoForte2"/>
+
+        <android.support.v7.widget.AppCompatButton
+            style="@style/Plus"
+            android:id="@+id/mais_botao4"
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divisor_sobre5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/marrom1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adicionar_perguntas_frequentes"
+        />
+
+    <RelativeLayout
+        android:id="@+id/adicionar_boleiro"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divisor_sobre5"
+        >
+
+        <TextView
+            android:id="@+id/texto_boleiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Quero ser um Boleiro"
+            android:textSize="25dp"
+            android:textColor="@color/vermelhoForte2"/>
+
+        <android.support.v7.widget.AppCompatButton
+            style="@style/Plus"
+            android:id="@+id/mais_botao5"
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+
+
+
 
 
 
