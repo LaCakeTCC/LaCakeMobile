@@ -7,7 +7,7 @@
      android:background="@drawable/background_padrao"
      tools:context=".tela_fale_conosco">
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/background_padrao"
@@ -24,7 +24,7 @@
     >
 
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         style="@style/voltar"
         android:id="@+id/voltarBotao"
         android:layout_width="35dp"
@@ -141,7 +141,7 @@
 
         />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Botão_cadastrar"
         style="@style/Button_fale_conosco"
         android:layout_marginTop="20dp"
@@ -154,5 +154,5 @@
         app:layout_constraintTop_toBottomOf="@id/edit_email"
         />
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

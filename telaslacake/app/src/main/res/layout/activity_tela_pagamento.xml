@@ -1,4 +1,4 @@
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
      xmlns:tools="http://schemas.android.com/tools"
      android:layout_width="match_parent"
      android:layout_height="match_parent"
@@ -17,7 +17,7 @@
     app:layout_constraintEnd_toEndOf="parent"
     >
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         style="@style/voltar"
         android:id="@+id/voltarBotao"
         android:layout_width="35dp"
@@ -71,7 +71,7 @@
             android:textSize="25dp"
             android:textColor="@color/vermelhoForte2"/>
 
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             style="@style/Plus"
             android:id="@+id/mais_botao"
             android:layout_marginTop="5dp"
@@ -113,7 +113,7 @@
             android:textSize="25dp"
             android:textColor="@color/vermelhoForte2"/>
 
-        <android.support.v7.widget.AppCompatButton
+        <androidx.cardview.widget.CardView
             style="@style/Plus"
             android:id="@+id/mais_botao2"
             android:layout_marginTop="5dp"
@@ -156,7 +156,7 @@
             android:textSize="25dp"
             android:textColor="@color/vermelhoForte2"/>
 
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             style="@style/Plus"
             android:id="@+id/mais_botao3"
             android:layout_marginTop="5dp"
@@ -170,4 +170,4 @@
 
 
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -102,7 +102,7 @@
         app:layout_constraintTop_toBottomOf="@id/texto_senha"
         />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.cardview.widget.CardView
         android:id="@+id/Botão_cadastrar"
         style="@style/Button"
         android:layout_marginTop="20dp"
@@ -162,7 +162,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/divisor"
         >
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             style="@style/Facebook"
             android:id="@+id/facebook_botao"
             android:layout_marginTop="5dp"
@@ -172,7 +172,7 @@
 
             />
 
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             style="@style/Google"
             android:id="@+id/google_botao"
             android:layout_marginTop="5dp"
@@ -216,4 +216,4 @@
     </RelativeLayout>
 
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

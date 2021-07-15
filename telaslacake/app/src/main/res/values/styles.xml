@@ -145,8 +145,26 @@
         <item name="android:textColor">@color/vermelhoForte2</item>
         <item name="android:textSize">25dp</item>
         <item name="android:textAlignment">center</item>
-
     </style>
+
+    <style name = "ConteinerComponents3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@drawable/conteiner_components3</item>
+    </style>
+
+    <style name = "ConteinerComponents2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@drawable/conteiner_components2</item>
+    </style>
+
+    <style name="roundimageview">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+        <item name="color">@color/white</item>
+    </style>
+
 
 
 
