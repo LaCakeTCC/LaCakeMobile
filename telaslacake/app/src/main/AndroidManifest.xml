@@ -28,24 +28,20 @@
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".tela_cadastro"></activity>
         <activity android:name=".tela_pagamento"></activity>
-        <activity android:name=".tela_principal"></activity>
-        <activity android:name=".tela_sobre"></activity>
-        <activity android:name=".tela_fale_conosco"></activity>
-        <activity android:name=".tela_de_pedidos"></activity>
-        <activity
-            android:name=".MapsActivity" >
+        <activity android:name=".tela_principal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".tela_sobre"></activity>
+        <activity android:name=".tela_fale_conosco"></activity>
+        <activity android:name=".tela_de_pedidos"></activity>
+        <activity android:name=".MapsActivity" ></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDe8QNOjx_xhZPCKbJAPN4rgSfriDO8jk0" />
-
-
 
     </application>
 

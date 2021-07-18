@@ -19,14 +19,11 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import br.com.itb.tcclacake2021.MainActivity;
 import br.com.itb.tcclacake2021.R;
-import br.com.itb.tcclacake2021.ui.login.LoginViewModel;
-import br.com.itb.tcclacake2021.ui.login.LoginViewModelFactory;
 import br.com.itb.tcclacake2021.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends AppCompatActivity {

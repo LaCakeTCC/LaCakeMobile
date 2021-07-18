@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TccLacake2021</string>
+    <string name="app_name">Lacake</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Navegação</string>
     <string name="title_notifications">Pedidos</string>
@@ -30,5 +30,9 @@
     <string name="favorites">Favoritos</string>
     <string name="profile_name_placeholder">Nome do perfil</string>
     <string name="party_cakes">Bolos de festa</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="google_maps_API_key">AIzaSyDe8QNOjx_xhZPCKbJAPN4rgSfriDO8jk0</string>
 
 </resources>
