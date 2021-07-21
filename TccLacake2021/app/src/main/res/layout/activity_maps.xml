@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="br.com.itb.tcclacake2021.MapsActivity">
 
-
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
@@ -15,31 +17,6 @@
         android:layout_marginTop="73dp"
         android:layout_marginBottom="40dp"
         tools:context=".MapsActivity" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="25dp"
-        android:src="@drawable/ic_vectormenu2" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="-3dp"
-        android:src="@drawable/ic_vectormenu" />
-
-    <View
-        style="@style/ConteinerComponents2"
-        app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="3dp"
-
-        />
-
     <!--
     <de.hdodenhof.circleimageview.CircleImageView
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -64,6 +41,12 @@
         android:src="@drawable/unnamed"
         app:shapeAppearanceOverlay="@style/roundimageview"/>
     -->
+    <View
+        style="@style/ConteinerComponents2"
+        android:layout_marginTop="3dp"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <View
         style="@style/ConteinerComponents3"
         app:layout_constraintStart_toEndOf="parent"
@@ -110,15 +93,94 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="17dp"
         android:src="@drawable/ic_botaoconfig" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/menu_inferior2"
+        style="@style/MenuComponets2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <View
         android:id="@+id/menu_inferior"
+        style="@style/MenuComponets"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@id/menu_inferior"
+        app:layout_constraintEnd_toEndOf="@id/menu_inferior"
+        app:layout_constraintStart_toStartOf="@id/menu_inferior">
 
-</RelativeLayout>
+        <ImageButton
+            android:id="@+id/botaoHome"
+            style="@style/btHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/texthome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/branco1"
+            android:layout_marginTop="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/botaoNavegacao"
+            style="@style/btGps"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@id/botaoHome" />
+
+        <TextView
+            android:id="@+id/textNavegação"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Navegação"
+            android:layout_marginLeft="38dp"
+            android:layout_toRightOf="@id/texthome"
+            android:textColor="@color/branco1"
+            android:layout_marginTop="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/botaPedidos"
+            style="@style/btPedidos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/botaoNavegacao" />
+
+        <TextView
+            android:id="@+id/textPedidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pedidos"
+            android:layout_marginLeft="28dp"
+            android:layout_toRightOf="@id/textNavegação"
+            android:textColor="@color/branco1"
+            android:layout_marginTop="40dp"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
 
 
 

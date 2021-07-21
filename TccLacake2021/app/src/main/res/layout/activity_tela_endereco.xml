@@ -1,0 +1,166 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:background="@drawable/background_padrao"
+     tools:context=".tela_sobre"
+    >
+
+    <RelativeLayout
+        android:id="@+id/voltarEendereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/voltar"
+            android:id="@+id/voltarBotao"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintLeft_toRightOf="@id/texto_config_endereco"
+            />
+
+        <TextView
+            style="@style/textoTitulo"
+            android:id="@+id/texto_config_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Configurações de Endereço"
+
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="411dp"
+        android:layout_height="406dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:layout_marginTop="90dp"
+            tools:context=".tela_endereco" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/containerComponets"
+        style="@style/ConstantComponents_endereco"
+        android:layout_width="410dp"
+        android:layout_height="452dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3" />
+
+
+    <TextView
+        android:id="@+id/texto_endereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="149dp"
+        android:text="Endereço:"
+        android:textAlignment="center"
+        android:textColor="@color/vermelhoForte2"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponets"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="@+id/containerComponets"
+        app:layout_constraintTop_toTopOf="@id/containerComponets" />
+
+    <EditText
+        android:id="@+id/edit_endereco"
+        style="@style/Edit_Text_endereco"
+        android:hint="Digite seu Endereço"
+
+        app:layout_constraintStart_toStartOf="@id/containerComponets"
+        app:layout_constraintEnd_toEndOf="@id/containerComponets"
+        app:layout_constraintTop_toBottomOf="@id/texto_endereco"
+
+        />
+
+
+    <TextView
+        android:id="@+id/texto_complemento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="123dp"
+        android:text="Complemento:"
+        android:textAlignment="center"
+        android:textColor="@color/vermelhoForte2"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponets"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="@+id/containerComponets"
+        app:layout_constraintTop_toBottomOf="@+id/edit_endereco" />
+
+    <EditText
+        android:id="@+id/edit_complemento"
+        style="@style/Edit_Text_endereco"
+        android:hint="Digite seu Complemento"
+
+        app:layout_constraintStart_toStartOf="@id/containerComponets"
+        app:layout_constraintEnd_toEndOf="@id/containerComponets"
+        app:layout_constraintTop_toBottomOf="@id/texto_complemento"
+
+        />
+
+    <TextView
+
+        android:id="@+id/texto_obs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Observações:"
+        android:textAlignment="center"
+        android:textColor="@color/vermelhoForte2"
+        android:textStyle=""
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@id/containerComponets"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="@+id/containerComponets"
+        app:layout_constraintTop_toBottomOf="@+id/edit_complemento" />
+
+    <EditText
+        android:id="@+id/edit_obs"
+        style="@style/Edit_Text_endereco"
+        android:hint="Digite Observações do Endereço"
+
+        app:layout_constraintStart_toStartOf="@id/containerComponets"
+        app:layout_constraintEnd_toEndOf="@id/containerComponets"
+        app:layout_constraintTop_toBottomOf="@id/texto_obs"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Botão_salvar"
+        style="@style/Button_endereco"
+        android:layout_marginTop="20dp"
+        android:hint="SALVAR E CONTINUAR"
+        android:textColorHint="@color/white"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_obs"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

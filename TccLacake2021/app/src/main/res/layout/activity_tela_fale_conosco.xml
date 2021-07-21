@@ -67,6 +67,7 @@
         android:layout_height="98dp"
         android:layout_marginTop="110dp"
         android:text="Possui alguma reclamação, dúvida ou sugestão? Entre em contato agora mesmo!"
+        android:textColor="@color/black"
         android:textAlignment="center"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -99,6 +100,7 @@
         android:layout_height="wrap_content"
         android:text="Qual Email Gostaria de Utilizar?" android:textSize="25dp"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:layout_marginTop="15dp"
         app:layout_constraintStart_toStartOf="@+id/containerComponets"
         app:layout_constraintEnd_toEndOf="@id/containerComponets"
@@ -124,6 +126,7 @@
         android:layout_height="wrap_content"
         android:text="Qual o Problema?" android:textSize="25dp"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:layout_marginTop="15dp"
         app:layout_constraintStart_toStartOf="@+id/containerComponets"
         app:layout_constraintEnd_toEndOf="@id/containerComponets"
@@ -142,7 +145,7 @@
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Botão_cadastrar"
+        android:id="@+id/Botão_enviar_fale_conosco"
         style="@style/Button_fale_conosco"
         android:layout_marginTop="20dp"
         android:hint="ENVIAR"

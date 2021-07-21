@@ -31,7 +31,7 @@
         android:id="@+id/texto_sobre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sobre"
+        android:text="Sobre o Aplicativo"
 
         />
 
@@ -46,12 +46,11 @@
     android:layout_marginRight="20dp"
     android:layout_centerVertical="true"
     android:layout_marginTop="35dp"
-    android:background="@color/marrom1"
+        android:background="@color/marrom1"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintTop_toBottomOf="@id/voltarESobre"
     />
-
     <RelativeLayout
         android:id="@+id/adicionar_quem_somos"
         android:layout_marginTop="15dp"
@@ -71,7 +70,7 @@
             android:textColor="@color/vermelhoForte2"/>
 
         <androidx.appcompat.widget.AppCompatButton
-            style="@style/Plus"
+            style="@style/Arrow_right"
             android:id="@+id/mais_botao"
             android:layout_marginTop="5dp"
             android:layout_width="30dp"
@@ -113,7 +112,7 @@
             android:textColor="@color/vermelhoForte2"/>
 
         <androidx.appcompat.widget.AppCompatButton
-            style="@style/Plus"
+            style="@style/Arrow_right"
             android:id="@+id/mais_botao2"
             android:layout_marginTop="5dp"
             android:layout_width="30dp"
@@ -156,7 +155,7 @@
             android:textColor="@color/vermelhoForte2"/>
 
         <androidx.appcompat.widget.AppCompatButton
-            style="@style/Plus"
+            style="@style/Arrow_right"
             android:id="@+id/mais_botao3"
             android:layout_marginTop="5dp"
             android:layout_width="30dp"
@@ -199,7 +198,7 @@
             android:textColor="@color/vermelhoForte2"/>
 
         <androidx.appcompat.widget.AppCompatButton
-            style="@style/Plus"
+            style="@style/Arrow_right"
             android:id="@+id/mais_botao4"
             android:layout_marginTop="5dp"
             android:layout_width="30dp"
@@ -242,21 +241,15 @@
             android:textColor="@color/vermelhoForte2"/>
 
         <androidx.appcompat.widget.AppCompatButton
-            style="@style/Plus"
+            style="@style/Arrow_right"
             android:id="@+id/mais_botao5"
             android:layout_marginTop="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_alignParentRight="true"
             />
+
+
     </RelativeLayout>
-
-
-
-
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
