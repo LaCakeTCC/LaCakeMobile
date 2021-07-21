@@ -272,6 +272,56 @@
         <item name="color">@color/white</item>
     </style>
 
+        <style name="voltarbranco">
+            <item name="android:layout_width">325dp</item>
+            <item name="android:layout_height">55dp</item>
+            <item name="android:layout_marginLeft">34dp</item>
+            <item name="android:layout_marginRight">34dp</item>
+            <item name="android:background">@drawable/ic_baseline_arrow_back_ios_242</item>
+        </style>
 
+        <style name="compartilhar">
+            <item name="android:layout_width">325dp</item>
+            <item name="android:layout_height">55dp</item>
+            <item name="android:background">@drawable/ic_baseline_share_24</item>
+        </style>
+
+        <style name="favoritar">
+            <item name="android:layout_width">325dp</item>
+            <item name="android:layout_height">55dp</item>
+            <item name="android:background">@drawable/ic_favorito</item>
+        </style>
+
+        <style name="favoritos">
+            <item name="android:layout_width">325dp</item>
+            <item name="android:layout_height">55dp</item>
+            <item name="android:background">@drawable/ic_favoritos</item>
+
+        </style>
+
+
+        <style name="circulo_separador">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:background">@drawable/ic_baseline_trip_origin_24</item>
+        </style>
+
+        <style name="notavazia">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:background">@drawable/ic_baseline_star_outline_24</item>
+        </style>
+
+        <style name="notameiocheia">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:background">@drawable/ic_baseline_star_half_24</item>
+        </style>
+
+        <style name="notacheia">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:background">@drawable/ic_baseline_star_rate_24</item>
+        </style>
 
 </resources>
