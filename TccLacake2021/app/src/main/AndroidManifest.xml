@@ -34,6 +34,12 @@
         </activity>
 
 
+        <activity android:name=".tela_loading"></activity>
+
+        <activity android:name=".tela_favoritos"></activity>
+
+        <activity android:name=".perfil_da_loja"></activity>
+
         <activity android:name=".tela_cadastro"></activity>
 
         <activity android:name=".tela_pagamento"></activity>

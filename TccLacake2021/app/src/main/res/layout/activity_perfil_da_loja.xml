@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_tela_cadastro"
+    tools:context=".perfil_da_loja"
+    >
+
+
+
+    <ImageView
+            android:id="@+id/foto_da_loja"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/cake_decorate"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/foto_de_perfil"
+        android:layout_marginBottom="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/foto_da_loja">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sem_foto_de_perfil"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/fundobranco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_padrao"
+        app:layout_constraintTop_toBottomOf="@id/info_da_loja"
+        />
+
+    <TextView
+        android:id="@+id/produtos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:text="Produtos"
+        android:textSize="20dp"
+        android:textColor="@color/vermelhoForte2"
+        app:layout_constraintStart_toStartOf="@id/fundobranco"
+        app:layout_constraintTop_toTopOf="@id/fundobranco"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/produto1"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintStart_toStartOf="@id/fundobranco"
+        app:layout_constraintTop_toBottomOf="@id/produtos">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/nomedoProduto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:text="Red Velvet"
+                android:textSize="30dp"
+                android:textColor="@color/vermelhoForte2"
+                />
+
+            <TextView
+                android:id="@+id/descriçãodoProduto"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:lines="3"
+                android:text="Bolo Red Velvet,  conhecido como  bolo de veludo vermelho, tem  recheio e  cobertura branca deliciosa e super cremosa"
+                android:textSize="10dp"
+                android:layout_marginBottom="40dp"
+                android:textColor="@color/vermelhoForte2"
+                android:layout_alignParentBottom="true"
+                />
+
+           <RelativeLayout
+               android:id="@+id/PrecodoProduto"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:layout_alignParentBottom="true">
+
+               <TextView
+                   android:id="@+id/RS"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="12dp"
+                   android:text="R$"
+                   android:textSize="15dp"
+                   android:textColor="@color/vermelhoForte2"
+                   />
+
+               <TextView
+                   android:id="@+id/preco"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="3dp"
+                   android:text="50,00"
+                   android:textSize="15dp"
+                   android:textColor="@color/vermelhoForte2"
+                   android:layout_toRightOf="@id/RS"
+                   />
+
+           </RelativeLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                style="@style/Plus"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="38dp"
+                android:layout_marginBottom="5dp" />
+
+            <androidx.cardview.widget.CardView
+            android:layout_alignParentRight="true"
+            android:id="@+id/foto_do_produto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bolo_de_fundo"
+
+                />
+        </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/info_da_loja"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/vermelhoForte2"
+        app:layout_constraintTop_toBottomOf="@id/foto_da_loja"
+        app:layout_constraintBottom_toTopOf="@id/fundobranco"
+        />
+
+
+    <RelativeLayout
+           android:id="@+id/nomeLocalDoBoleiro"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="30dp"
+           app:layout_constraintStart_toStartOf="@id/info_da_loja"
+           app:layout_constraintBottom_toBottomOf="@id/info_da_loja">
+
+          <TextView
+              android:id="@+id/nomeBoleiro"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Nome do boleiro"
+              android:textColor="@color/branco1"
+              android:textSize="20dp"
+              android:layout_alignParentLeft="true"
+              android:layout_marginLeft="12dp"
+              />
+
+           <TextView
+               android:id="@+id/separador"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:text="-"
+               android:textColor="@color/branco1"
+               android:textSize="15dp"
+               android:layout_marginLeft="3dp"
+               android:layout_toRightOf="@id/nomeBoleiro"
+               />
+
+           <TextView
+               android:id="@+id/LocalBoleiro"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:text="Local do boleiro"
+               android:textColor="@color/branco1"
+               android:textSize="15dp"
+               android:layout_marginLeft="3dp"
+               android:layout_toRightOf="@id/separador"
+               />
+
+
+       </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/DistanciaeNotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="@id/info_da_loja"
+        app:layout_constraintBottom_toBottomOf="@id/info_da_loja">
+
+        <TextView
+        android:id="@+id/distancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.0"
+        android:textColor="@color/branco1"
+        android:textSize="15dp"
+        android:layout_marginLeft="12dp"
+        />
+
+        <TextView
+            android:id="@+id/km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Km"
+            android:textColor="@color/branco1"
+            android:textSize="15dp"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/distancia"
+            />
+
+        <View
+            android:id="@+id/circuloSeparador"
+            android:layout_centerInParent="true"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="10dp"
+            style="@style/circulo_separador"
+            android:layout_toRightOf="@id/km"
+            />
+
+        <RelativeLayout
+            android:id="@+id/notadoBoleiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/circuloSeparador">
+
+            <View
+                android:id="@+id/nota1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                style="@style/notacheia"
+                android:layout_marginLeft="12dp"
+
+                />
+
+            <View
+                android:id="@+id/nota2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/nota1"
+                style="@style/notacheia"
+
+                />
+
+            <View
+                android:id="@+id/nota3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/nota2"
+                style="@style/notacheia"
+
+                />
+
+
+            <View
+                android:id="@+id/nota4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/nota3"
+                style="@style/notameiocheia"
+
+                />
+
+
+            <View
+                android:id="@+id/nota5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@id/nota4"
+                style="@style/notavazia"
+
+
+                />
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/compart_Favoritar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="@id/info_da_loja"
+        app:layout_constraintBottom_toBottomOf="@id/info_da_loja"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/favoritar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="12dp"
+            style="@style/favoritar"
+            android:layout_alignParentRight="true"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/compartilhar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="12dp"
+            style="@style/compartilhar"
+            android:layout_toLeftOf="@id/favoritar"
+            />
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/menu_superior"
+        style="@style/MenuComponets"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:rotation="180"/>
+
+    <RelativeLayout
+        android:id="@+id/botoes_menu_superior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/menu_superior"
+        app:layout_constraintEnd_toEndOf="@id/menu_superior"
+        app:layout_constraintBottom_toBottomOf="@id/menu_superior">
+
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/voltarbranco"
+            android:id="@+id/voltarBotaoBranco"
+            android:layout_marginTop="12dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+            app:layout_constraintLeft_toRightOf="@id/button_config"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_config"
+            style="@style/config"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/menu_inferior"
+        style="@style/MenuComponets"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@id/menu_inferior"
+        app:layout_constraintEnd_toEndOf="@id/menu_inferior"
+        app:layout_constraintStart_toStartOf="@id/menu_inferior">
+
+        <ImageButton
+            android:id="@+id/botaoHome"
+            style="@style/btHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/texthome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/branco1"
+            android:layout_marginTop="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/botaoNavegacao"
+            style="@style/btGps"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@id/botaoHome" />
+
+        <TextView
+            android:id="@+id/textNavegação"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Navegação"
+            android:layout_marginLeft="38dp"
+            android:layout_toRightOf="@id/texthome"
+            android:textColor="@color/branco1"
+            android:layout_marginTop="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/botaPedidos"
+            style="@style/btPedidos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/botaoNavegacao" />
+
+        <TextView
+            android:id="@+id/textPedidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pedidos"
+            android:layout_marginLeft="28dp"
+            android:layout_toRightOf="@id/textNavegação"
+            android:textColor="@color/branco1"
+            android:layout_marginTop="40dp"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
