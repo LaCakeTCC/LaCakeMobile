@@ -9,8 +9,8 @@
     android:background="@color/branco1"
     >
 
-    <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/arrow_left"
+    <ImageView
+        android:id="@+id/cupcakes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/cupcake1"
@@ -95,7 +95,7 @@
         />
 
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -104,8 +104,6 @@
         android:layout_marginTop="0dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="100dp"
-
-
         android:text="@string/action_sign_in"
         style="@style/buttonLogin"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -162,25 +160,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/divider"
         >
-        <Button
-            style="@style/buttonFacebook"
-            android:id="@+id/button_facebook"
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/Google"
+            android:id="@+id/google_botao"
             android:layout_marginTop="5dp"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginEnd="16dp"
-
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/facebook_botao"
             />
 
 
-        <Button
-            style="@style/buttonGoogle"
-            android:id="@+id/button_google"
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/Facebook"
+            android:id="@+id/facebook_botao"
             android:layout_marginTop="5dp"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginStart="16dp"
-            android:layout_toEndOf="@id/button_facebook"
+            android:layout_marginRight="16dp"
+
             />
 
     </RelativeLayout>
