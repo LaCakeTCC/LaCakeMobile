@@ -1,39 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/container"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/branco1">
+    android:background="@drawable/background_tela_cadastro"
+    tools:context=".tela_cadastro">
 
-
-
-    <ImageView
-        android:id="@+id/shape_rec"
-        android:layout_width="414dp"
-        android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:src="@drawable/red_rectangle"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+    <View
+        android:id="@+id/fundobranco"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_padrao"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="1040dp"
-        android:contentDescription="@string/img"
-        android:rotation="184"
-        />
-    <ImageView
-        android:id="@+id/shape_rec2"
-        android:layout_width="414dp"
-        android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:src="@drawable/red_rectangle"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginStart="30dp"
-        android:layout_marginBottom="1040dp"
-        android:contentDescription="@string/img"
-        android:rotation="184"
+
         />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/ic_cobertura1"
+            android:scaleX="-1.5" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_cobertura2"
+            android:scaleX="1.5" />
+
+    </RelativeLayout>
     <ImageView
         android:id="@+id/arrow_left"
         android:layout_width="wrap_content"
@@ -72,19 +76,6 @@
         />
 
     <ImageView
-        android:id="@+id/wave"
-        android:layout_width="500dp"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_red_wave"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/shape_rec"
-        android:layout_marginTop="390dp"
-        android:contentDescription="@string/img"
-        android:rotation="184"
-        />
-
-    <ImageView
         android:id="@+id/containerCate"
         android:layout_width="wrap_content"
         android:layout_height="300dp"
@@ -92,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="180dp"
         android:contentDescription="@string/img"
         android:rotation="90"
         />
@@ -145,7 +136,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tempo de entrega estimado: 2h"
+        android:text="@string/estimated_time"
+        android:textColor="@color/branco1"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/containerCate"
+        app:layout_constraintTop_toTopOf="@id/containerCate"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="75dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
         android:textColor="@color/branco1"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@id/containerCate"

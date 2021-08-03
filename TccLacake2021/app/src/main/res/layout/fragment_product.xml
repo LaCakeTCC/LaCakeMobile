@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/cupcakes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/redcake"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/img"
+        android:scaleType="fitStart"
+        />
+    <ImageView
+        android:id="@+id/arrow_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_left"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/icon"
+        app:tint="@color/branco1"
+        />
+    <TextView
+        android:id="@+id/cakename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red Velvet"
+        android:textColor="@color/vermelhoForte"
+        android:textSize="25sp"
+        android:fontFamily="@font/helveticass"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cupcakes"
+        android:drawablePadding="10dp"
+        />
+    <TextView
+        android:id="@+id/cake_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bolo Red Velvet,  conhecido como  bolo de veludo vermelho, tem  recheio e  cobertura branca deliciosa e super cremosa"
+        android:textColor="@color/vermelhoForte"
+        android:textSize="16sp"
+        android:fontFamily="@font/helveticass"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cakename"
+        android:drawablePadding="10dp"
+        />
+    <View
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        app:layout_constraintTop_toBottomOf="@id/cake_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/vermelhoForte"
+        />
+    <TextView
+        android:id="@+id/cakepiece"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fatia de bolo"
+        android:textColor="@color/vermelhoForte"
+        android:textSize="22sp"
+        android:fontFamily="@font/helveticass"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bar"
+        android:drawablePadding="10dp"
+        />
+    <TextView
+        android:id="@+id/qtupiece"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="@color/vermelhoForte"
+        android:textSize="22sp"
+        android:fontFamily="@font/helveticass"
+        android:layout_marginEnd="90dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bar"
+        android:drawablePadding="10dp"
+        />
+    <ImageView
+
+        android:layout_width="12dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_plus"
+        app:layout_constraintStart_toEndOf="@id/qtupiece"
+        app:layout_constraintTop_toBottomOf="@id/bar"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="4dp"
+        android:contentDescription="@string/icon"
+        app:tint="@color/vermelhoForte" />
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_minus"
+        app:layout_constraintEnd_toStartOf="@id/qtupiece"
+        app:layout_constraintTop_toBottomOf="@id/bar"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="4dp"
+        android:contentDescription="@string/icon"
+        app:tint="@color/vermelhoForte" />
+    <TextView
+        android:id="@+id/wholecake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bolo inteiro"
+        android:textColor="@color/vermelhoForte"
+        android:textSize="22sp"
+        android:fontFamily="@font/helveticass"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cakepiece"
+        android:drawablePadding="10dp"
+        />
+    <TextView
+        android:id="@+id/qtuwhole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="@color/vermelhoForte"
+        android:textSize="22sp"
+        android:fontFamily="@font/helveticass"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bar2"
+        android:drawablePadding="10dp"
+        />
+    <ImageView
+
+        android:layout_width="12dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_plus"
+        app:layout_constraintStart_toEndOf="@id/qtuwhole"
+        app:layout_constraintBottom_toTopOf="@id/bar2"
+        android:layout_marginBottom="18dp"
+        android:layout_marginStart="4dp"
+        android:contentDescription="@string/icon"
+        app:tint="@color/vermelhoForte" />
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_minus"
+        app:layout_constraintEnd_toStartOf="@id/qtuwhole"
+        app:layout_constraintBottom_toTopOf="@id/bar2"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="4dp"
+        android:contentDescription="@string/icon"
+        app:tint="@color/vermelhoForte" />
+    <View
+        android:id="@+id/bar2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        app:layout_constraintTop_toBottomOf="@id/wholecake"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/vermelhoForte"
+        />
+    <TextView
+        android:id="@+id/observation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alguma observação?"
+        android:textColor="@color/vermelhoForte"
+        android:textSize="18sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="26dp"
+        android:fontFamily="@font/helveticass"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wholecake"
+        android:drawablePadding="10dp"
+        app:drawableStartCompat="@drawable/ic_chat"
+        />
+    <EditText
+        android:id="@+id/observation_text"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="1dp"
+        style="@style/editText1"
+        android:hint="Ex: Tirar morangos, cobertura diferente..."
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/observation"
+        android:autofillHints="@string/prompt_email"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Botão_cadastrar"
+        style="@style/Button"
+        android:layout_marginTop="20dp"
+        android:hint="Finalizar"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/observation_text"
+
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
