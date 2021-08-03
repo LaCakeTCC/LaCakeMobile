@@ -24,29 +24,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TccLacake2021"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ui.login.LoginActivity"
-                  android:label="@string/title_activity_login">
+
+        <activity android:name=".ui.login.LoginActivity" android:label="@string/title_activity_login">
         </activity>
 
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name">
+        <activity android:name=".MainActivity" android:label="@string/app_name">
         </activity>
 
+        <activity android:name=".tela_loading" android:screenOrientation="portrait">
+        </activity>
 
-        <activity android:name=".tela_loading" android:screenOrientation="portrait"></activity>
+        <activity android:name=".tela_favoritos" android:screenOrientation="portrait">
+        </activity>
 
-        <activity android:name=".tela_favoritos" android:screenOrientation="portrait"></activity>
+        <activity android:name=".perfil_da_loja" android:screenOrientation="portrait">
+        </activity>
 
-        <activity android:name=".perfil_da_loja" android:screenOrientation="portrait"></activity>
+        <activity android:name=".tela_cadastro" android:screenOrientation="portrait">
+        </activity>
 
-        <activity android:name=".tela_cadastro" android:screenOrientation="portrait"></activity>
+        <activity android:name=".tela_pagamento" android:screenOrientation="portrait">
+        </activity>
 
-        <activity android:name=".tela_pagamento" android:screenOrientation="portrait"></activity>
+        <activity android:name=".tela_principal" android:screenOrientation="portrait">
+        </activity>
 
-        <activity android:name=".tela_principal" android:screenOrientation="portrait"></activity>
-
-        <!-- tela sobre -->
+        <!-- Tela Sobre -->
         <activity android:name=".tela_sobre" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -118,10 +121,8 @@
 
         <activity android:name=".MapsActivity" android:screenOrientation="portrait"></activity>
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDe8QNOjx_xhZPCKbJAPN4rgSfriDO8jk0" />
+        <meta-data android:name="com.google.android.geo.API_KEY"
+                   android:value="AIzaSyDe8QNOjx_xhZPCKbJAPN4rgSfriDO8jk0" />
 
     </application>
-
 </manifest>
