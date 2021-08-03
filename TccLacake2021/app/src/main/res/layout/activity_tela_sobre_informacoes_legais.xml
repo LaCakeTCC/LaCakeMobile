@@ -1,0 +1,209 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_padrao"
+    tools:context=".tela_sobre_informacoes_legais">
+
+    <!--Informações Legais-->
+    <RelativeLayout
+        android:id="@+id/voltarEinformacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/voltar"
+            android:id="@+id/voltarBotao"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintLeft_toRightOf="@id/texto_info" />
+
+        <TextView
+            style="@style/textoTitulo"
+            android:id="@+id/texto_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informações Legais" />
+
+    </RelativeLayout>
+    <!--Fim-->
+
+    <!--Licenças do Software-->
+    <View
+        android:id="@+id/divisor_licenca"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="35dp"
+        android:background="@color/marrom1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/voltarEinformacoes" />
+
+    <RelativeLayout
+        android:id="@+id/adicionar_licenca"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divisor_licenca">
+
+        <TextView
+            android:id="@+id/texto_licenca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Licenças do Software"
+            android:textColor="@color/vermelhoForte2"
+            android:textSize="25dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mais_botao_licenca"
+            style="@style/Arrow_right"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp" />
+
+    </RelativeLayout>
+    <!--Fim-->
+
+    <!--Politica de Privacidade-->
+    <View
+        android:id="@+id/divisor_info_politica"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/marrom1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adicionar_licenca" />
+
+    <RelativeLayout
+        android:id="@+id/adicionar_politica"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divisor_info_politica">
+
+        <TextView
+            android:id="@+id/texto_politica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Politica de Privacidade"
+            android:textColor="@color/vermelhoForte2"
+            android:textSize="25dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/Arrow_right"
+            android:id="@+id/mais_botao_politica"
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+    <!--Fim-->
+
+    <!--Termos e Condições-->
+    <View
+        android:id="@+id/divisor_info_termos"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/marrom1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adicionar_politica" />
+
+    <RelativeLayout
+        android:id="@+id/adicionar_termos"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divisor_info_termos">
+
+        <TextView
+            android:id="@+id/texto_termos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Termos e Condições"
+            android:textColor="@color/vermelhoForte2"
+            android:textSize="25dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/Arrow_right"
+            android:id="@+id/mais_botao_termos"
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+    <!--Fim-->
+
+    <!--Dados de Localização-->
+    <View
+        android:id="@+id/divisor_dados"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/marrom1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adicionar_termos" />
+
+    <RelativeLayout
+        android:id="@+id/adicionar_dados"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divisor_dados">
+
+        <TextView
+            android:id="@+id/texto_dados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Dados de Localização"
+            android:textColor="@color/vermelhoForte2"
+            android:textSize="25dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/Arrow_right"
+            android:id="@+id/mais_botao_dados"
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+    <!--Fim-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

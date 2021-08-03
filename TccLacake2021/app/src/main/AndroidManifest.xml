@@ -34,34 +34,94 @@
         </activity>
 
 
-        <activity android:name=".tela_loading"></activity>
+        <activity android:name=".tela_loading" android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".tela_favoritos"></activity>
+        <activity android:name=".tela_favoritos" android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".perfil_da_loja"></activity>
+        <activity android:name=".perfil_da_loja" android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".tela_cadastro"></activity>
+        <activity android:name=".tela_cadastro" android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".tela_pagamento"></activity>
+        <activity android:name=".tela_pagamento" android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".tela_principal"></activity>
+        <activity android:name=".tela_principal" android:screenOrientation="portrait"></activity>
 
-        <activity android:name=".tela_endereco">
+        <!-- tela sobre -->
+        <activity android:name=".tela_sobre" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".tela_fale_conosco"></activity>
+        <!-- Informações Legais -->
+        <activity android:name=".tela_sobre_informacoes_legais">
+            android:parentActivityName=".tela_sobre"
+            android:screenOrientation="portrait">
+        </activity>
 
-        <activity android:name=".tela_de_pedidos"></activity>
+        <activity android:name=".tela_info_licenca_do_software">
+            android:parentActivityName=".tela_sobre"
+            android:screenOrientation="portrait">
+        </activity>
 
-        <activity android:name=".MapsActivity" ></activity>
+        <activity android:name=".tela_info_politica_de_privacidade">
+            android:parentActivityName=".tela_sobre"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".tela_info_termos_e_condicoes">
+            android:parentActivityName=".tela_sobre"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".tela_info_dados_de_localizacao">
+            android:parentActivityName=".tela_sobre"
+            android:screenOrientation="portrait">
+        </activity>
+        <!-- Informações Legais -->
+
+        <activity android:name=".tela_sobre_quem_somos"
+            android:parentActivityName=".tela_sobre"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".tela_sobre_fundadores"
+            android:parentActivityName=".tela_sobre"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".tela_sobre_colaboradores"
+            android:parentActivityName=".tela_sobre"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".tela_sobre_versao_do_software"
+            android:parentActivityName=".tela_sobre"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".tela_sobre_perguntas_frequentes"
+            android:parentActivityName=".tela_sobre"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".tela_sobre_quero_ser_um_boleiro"
+            android:parentActivityName=".tela_sobre"
+            android:screenOrientation="portrait">
+        </activity>
+        <!-- tela sobre -->
+
+        <activity android:name=".tela_fale_conosco" android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".tela_de_pedidos" android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".MapsActivity" android:screenOrientation="portrait"></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDe8QNOjx_xhZPCKbJAPN4rgSfriDO8jk0" />
+
     </application>
 
 </manifest>
