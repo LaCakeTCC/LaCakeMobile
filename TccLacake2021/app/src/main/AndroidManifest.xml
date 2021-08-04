@@ -43,7 +43,17 @@
         <activity android:name=".tela_cadastro" android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name=".tela_pagamento" android:screenOrientation="portrait">
+        <!-- Tela do Perfil -->
+        <activity android:name=".fragment_profile" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Tela do Perfil -->
+
+        <activity android:name=".tela_pagamento" android:screenOrientation="portrait"
+            android:parentActivityName=".fragment_profile">
         </activity>
 
         <activity android:name=".tela_principal" android:screenOrientation="portrait">
@@ -51,10 +61,6 @@
 
         <!-- Tela Sobre -->
         <activity android:name=".tela_sobre" android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <!-- Informações Legais -->

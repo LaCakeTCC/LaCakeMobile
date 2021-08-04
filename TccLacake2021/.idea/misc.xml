@@ -22,6 +22,7 @@
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_info_politica.xml" value="0.1431159420289855" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_info_termos_e_condicoes.xml" value="0.1431159420289855" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_informacoes_legais.xml" value="0.22" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_pagamento.xml" value="0.18" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_perguntas_frequentes.xml" value="0.1" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_quero_ser_um_boleiro.xml" value="0.1" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_sobre.xml" value="0.22" />
@@ -29,6 +30,8 @@
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_sobre_quem_somos.xml" value="0.22" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_versao_do_software.xml" value="0.1" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/appbar.xml" value="0.2" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_profile.xml" value="0.18" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_settings.xml" value="0.18" />
       </map>
     </option>
   </component>

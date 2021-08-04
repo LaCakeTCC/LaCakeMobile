@@ -26,15 +26,15 @@
         app:layout_constraintLeft_toRightOf="@id/texto_pagamento"
         />
 
-    <TextView
-        style="@style/textoTitulo"
-        android:id="@+id/texto_pagamento"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Formas de pagamento"
+       <TextView
+           android:id="@+id/texto_pagamento"
+           style="@style/textoTitulo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Método de pagamento"
 
 
-        />
+           />
 
 </RelativeLayout>
 
@@ -109,7 +109,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="Vale-refeição"
+            android:text="Dinheiro"
             android:textSize="25dp"
             android:textColor="@color/vermelhoForte2"/>
 
@@ -152,9 +152,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:text="Vale-Alimentação"
-            android:textSize="25dp"
-            android:textColor="@color/vermelhoForte2"/>
+            android:text="Pix"
+            android:textColor="@color/vermelhoForte2"
+            android:textSize="25dp" />
 
         <androidx.appcompat.widget.AppCompatButton
             style="@style/Plus"
