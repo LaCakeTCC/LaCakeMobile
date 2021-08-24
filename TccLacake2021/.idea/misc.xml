@@ -3,6 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_login.xml" value="0.1793478260869565" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_main.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_maps.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_perfil_da_loja.xml" value="0.2" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_profile.xml" value="0.20208333333333334" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_settings.xml" value="0.24818840579710144" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_cadastro.xml" value="0.1793478260869565" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_de_pedidos.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_endereco.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_fale_conosco.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_favoritos.xml" value="0.13020833333333334" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_info_dados_de_localizacao.xml" value="0.13020833333333334" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_loading.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_pagamento.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_principal.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/activity_tela_sobre.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_category.xml" value="0.23125" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_dashboard.xml" value="0.23125" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_home.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_notifications.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_product.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_profile.xml" value="0.21197916666666666" />
+        <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_settings.xml" value="0.23125" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/drawable-v24/appbar.xml" value="0.2203125" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/drawable/appbar.xml" value="0.16666666666666666" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/drawable/container_components.xml" value="0.16666666666666666" />

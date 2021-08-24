@@ -22,9 +22,10 @@
         style="@style/ConstantComponents"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/logo"
-        />
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
 
     <ImageView
         android:id="@+id/logo"
@@ -32,9 +33,9 @@
         android:layout_height="224dp"
         android:src="@drawable/logo_la_cake"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:id="@+id/texto_nomeusuario"
@@ -203,15 +204,20 @@
 
             />
 
+
+    [
+
         <TextView
             android:id="@+id/entrar"
-            android:text="Entrar" android:textSize="20dp"
-            android:textColor="@color/vermelhoForte"
             android:layout_width="60dp"
             android:layout_height="30dp"
             android:layout_marginTop="5dp"
             android:layout_toRightOf="@id/possui_conta"
-            />
+            android:text="Entrar"
+            android:textColor="@color/vermelhoForte"
+            android:textSize="20dp" />
+
+
 
     </RelativeLayout>
 

@@ -73,6 +73,7 @@
         app:layout_constraintTop_toBottomOf="@id/produtos">
 
         <RelativeLayout
+            android:id="@+id/produto_lista"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             >
@@ -388,10 +389,10 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_alignParentRight="true"
-            android:layout_marginBottom="30dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="12dp"
-            android:layout_marginRight="12dp" />
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="30dp" />
 
 
     </RelativeLayout>
@@ -443,12 +444,11 @@
             android:id="@+id/textNavegação"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Navegação"
             android:layout_marginLeft="38dp"
-            android:layout_toRightOf="@id/texthome"
-            android:textColor="@color/branco1"
             android:layout_marginTop="40dp"
-            />
+            android:layout_toRightOf="@id/texthome"
+            android:text="Navegação"
+            android:textColor="@color/branco1" />
 
         <ImageButton
             android:id="@+id/botaPedidos"

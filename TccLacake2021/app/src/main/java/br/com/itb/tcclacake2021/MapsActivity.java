@@ -10,10 +10,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
@@ -63,6 +65,39 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+        ImageButton b1 = (ImageButton) findViewById(R.id.button_config);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MapsActivity.this, tela_settings.class);
+                startActivity(it);
+            }
+        });
+
+        ImageButton b2 = (ImageButton) findViewById(R.id.botaoHome);
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MapsActivity.this, tela_principal.class);
+                startActivity(it);
+            }
+        });
+        ImageButton b3 = (ImageButton) findViewById(R.id.botaoNavegacao);
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MapsActivity.this, MapsActivity.class);
+                startActivity(it);
+            }
+        });
+        ImageButton b4 = (ImageButton) findViewById(R.id.botaPedidos);
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MapsActivity.this, tela_de_pedidos.class);
+                startActivity(it);
+            }
+        });
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
