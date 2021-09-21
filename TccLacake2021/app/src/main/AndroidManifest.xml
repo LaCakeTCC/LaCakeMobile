@@ -32,6 +32,7 @@
         </activity>
 
         <activity android:name=".tela_loading" android:screenOrientation="portrait">
+
         </activity>
 
         <activity android:name=".tela_settings" android:screenOrientation="portrait">
@@ -62,15 +63,15 @@
         </activity>
 
         <activity android:name=".tela_principal" android:screenOrientation="portrait">
-
-        </activity>
-
-        <activity android:name=".tela_profile" android:screenOrientation="portrait"
-            android:parentActivityName=".tela_principal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity android:name=".tela_profile" android:screenOrientation="portrait"
+            android:parentActivityName=".tela_principal">
+
         </activity>
 
         <activity android:name=".tela_endereco" android:screenOrientation="portrait"
