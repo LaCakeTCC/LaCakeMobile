@@ -18,11 +18,6 @@ public class tela_sobre extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_sobre);
 
-        //Tool Bar - Começo
-        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
-        getSupportActionBar().setCustomView(R.layout.activity_tela_sobre);
-        //Tool Bar - Fim
-
         // Quem somos - começo
         RelativeLayout buttonRelativequemSomos = (RelativeLayout) findViewById(R.id.adicionar_quem_somos);
         buttonRelativequemSomos.setOnClickListener(new View.OnClickListener() {
