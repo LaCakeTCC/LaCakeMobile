@@ -24,12 +24,12 @@
         android:layout_marginLeft="20dp"
         app:layout_constraintLeft_toRightOf="@id/texto_sobre" />
 
-    <TextView
-        style="@style/textoTitulo"
-        android:id="@+id/texto_sobre"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sobre o Aplicativo" />
+       <TextView
+           android:id="@+id/texto_sobre"
+           style="@style/textoTitulo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Sobre o Aplicativo" />
 
 </RelativeLayout>
     <!--Fim-->

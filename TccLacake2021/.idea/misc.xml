@@ -64,6 +64,42 @@
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_dashboard.xml" value="0.276268115942029" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_profile.xml" value="0.18" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_settings.xml" value="0.18" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_botaoconfig.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_botaogps.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_configuracoes_profile.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_endereco_icon.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_faleconosco.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_fav.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_favorito.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_lixo.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_metodopgto.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_notify.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_notify_icon.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_sair.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_settings.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_sobre.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/drawable/ic_switch_icon.xml" value="0.22135416666666666" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_main.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_maps.xml" value="0.20520833333333333" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_perfil_da_loja.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_profile.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_settings.xml" value="0.67" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_cadastro.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_de_pedidos.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_endereco.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_fale_conosco.xml" value="0.17831813576494426" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_favoritos.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_info_dados_de_localizacao.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_principal.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_sobre.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/custom_toolbar.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/fragment_category.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/fragment_dashboard.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/fragment_home.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/fragment_notifications.xml" value="0.27717391304347827" />
+        <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/lacake-mobile/TccLacake2021/app/src/main/res/layout/fragment_product.xml" value="0.27717391304347827" />
       </map>
     </option>
   </component>

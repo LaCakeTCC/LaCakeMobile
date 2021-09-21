@@ -34,17 +34,26 @@
         <activity android:name=".tela_loading" android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name=".tela_favoritos" android:screenOrientation="portrait">
+        <activity android:name=".tela_settings" android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity android:name=".tela_favoritos" android:screenOrientation="portrait"
+            android:parentActivityName=".tela_profile">
+
         </activity>
 
         <activity android:name=".perfil_da_loja" android:screenOrientation="portrait">
+
         </activity>
 
         <activity android:name=".tela_cadastro" android:screenOrientation="portrait">
+
         </activity>
 
         <!-- Tela do Perfil -->
         <activity android:name=".fragment_profile" android:screenOrientation="portrait">
+
         </activity>
         <!-- Tela do Perfil -->
 
@@ -53,14 +62,24 @@
         </activity>
 
         <activity android:name=".tela_principal" android:screenOrientation="portrait">
+
         </activity>
 
-        <!-- Tela Sobre -->
-        <activity android:name=".tela_sobre" android:screenOrientation="portrait">
+        <activity android:name=".tela_profile" android:screenOrientation="portrait"
+            android:parentActivityName=".tela_principal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity android:name=".tela_endereco" android:screenOrientation="portrait"
+            android:parentActivityName=".tela_profile">
+        </activity>
+
+        <!-- Tela Sobre -->
+        <activity android:name=".tela_sobre" android:screenOrientation="portrait">
+
         </activity>
 
         <!-- Informações Legais -->

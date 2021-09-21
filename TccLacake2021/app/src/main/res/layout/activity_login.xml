@@ -9,53 +9,59 @@
     android:background="@color/branco1"
     >
 
+
     <ImageView
         android:id="@+id/cupcakes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/cupcake1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="671dp"
+        android:layout_height="821dp"
         android:contentDescription="@string/img"
         android:scaleType="fitStart"
-        />
+        android:src="@drawable/cupcake1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.303"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="160dp"
-        android:layout_height="161dp"
+        android:layout_width="172dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/img"
         android:src="@drawable/logosimples1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/img"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
+
     <View
         android:id="@+id/containerComponets"
         style="@style/ConstantComponents"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/logo"/>
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
     <TextView
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
         android:text="@string/email"
         android:textSize="25sp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="25dp"
         app:layout_constraintStart_toStartOf="@+id/containerComponets"
-        app:layout_constraintTop_toTopOf="@id/containerComponets"
-        />
-
+        app:layout_constraintTop_toTopOf="@id/containerComponets" />
 
     <EditText
         android:id="@+id/username"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
-        android:layout_marginTop="1dp"
         style="@style/editText1"
+        android:layout_marginTop="5dp"
         android:hint="@string/prompt_email"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
@@ -63,23 +69,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/email"
         android:autofillHints="@string/prompt_email"/>
+
     <TextView
         android:id="@+id/text_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/password" android:textSize="25sp"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="5dp"
+        android:text="@string/password"
+        android:textSize="25sp"
         app:layout_constraintStart_toStartOf="@+id/containerComponets"
-        app:layout_constraintTop_toBottomOf="@+id/username"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="24dp"
         style="@style/editText1"
         android:hint="@string/prompt_password"
@@ -97,6 +104,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/login"
+        style="@style/Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
@@ -105,7 +113,6 @@
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="100dp"
         android:text="@string/action_sign_in"
-        style="@style/buttonLogin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -95,6 +96,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(MapsActivity.this, tela_de_pedidos.class);
+                startActivity(it);
+            }
+        });
+
+        ImageView profileButton = (ImageView) findViewById(R.id.foto_perfil_mapa);
+        profileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MapsActivity.this, tela_profile.class);
                 startActivity(it);
             }
         });

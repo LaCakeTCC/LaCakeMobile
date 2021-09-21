@@ -61,6 +61,7 @@
         android:layout_marginTop="19dp">
 
         <ImageView
+            android:id="@+id/foto_perfil_mapa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/foto_perfil_mapa"
@@ -80,7 +81,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="97dp"
         android:layout_marginBottom="682dp"
-        android:text="José Leonardo Souza Santos" />
+        android:text="@string/profile_name_placeholder" />
 
     <ImageButton
         android:id="@+id/button_config"

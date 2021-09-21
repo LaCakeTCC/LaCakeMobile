@@ -27,7 +27,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="245dp"
             android:background="@drawable/ic_cobertura1"
             android:scaleX="-1.5" />
 
@@ -43,7 +43,7 @@
         android:id="@+id/perfil_config_pesquisa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -80,7 +80,7 @@
                 android:id="@+id/button_perfil"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/sem_foto_de_perfil"
+                android:src="@drawable/foto_perfil_mapa"
 
                 />
         </androidx.cardview.widget.CardView>
@@ -91,8 +91,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="12dp"
-        android:layout_marginTop="24dp"
-        android:text="Filtros:"
+        android:layout_marginTop="20dp"
+        android:text="FILTROS"
         android:textColor="@color/branco1"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -145,7 +145,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"
-            android:text="mais:"
+            android:text="mais"
             android:textColor="@color/branco1"
             android:textSize="11dp"
 
@@ -158,8 +158,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="12dp"
-        android:layout_marginTop="24dp"
-        android:text="Categorias:"
+        android:layout_marginTop="34dp"
+        android:text="CATEGORIAS"
         android:textColor="@color/vermelhoForte"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -232,7 +232,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="12dp"
         android:layout_marginTop="24dp"
-        android:text="Promoções:"
+        android:text="PROMOÇÕES"
         android:textColor="@color/vermelhoForte"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"

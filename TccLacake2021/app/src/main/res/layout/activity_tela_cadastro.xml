@@ -17,23 +17,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
+
     <View
         android:id="@+id/containerComponets"
         style="@style/ConstantComponents"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logo" />
 
-
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="223dp"
-        android:layout_height="224dp"
-        android:src="@drawable/logo_la_cake"
+        android:layout_width="141dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logosimples1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -63,7 +64,7 @@
         android:id="@+id/texto_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email" android:textSize="25dp"
+        android:text="E-mail" android:textSize="25dp"
         android:layout_marginRight="270dp"
         android:layout_marginTop="5dp"
         app:layout_constraintStart_toStartOf="@+id/containerComponets"
@@ -107,7 +108,7 @@
         android:id="@+id/Botão_cadastrar"
         style="@style/Button"
         android:layout_marginTop="20dp"
-        android:hint="Cadastrar-se"
+        android:hint="CADASTRAR"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -67,6 +67,15 @@ public class tela_principal extends AppCompatActivity {
             }
         });
 
+        ImageView profileButton = (ImageView) findViewById(R.id.button_perfil);
+        profileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(tela_principal.this, tela_profile.class);
+                startActivity(it);
+            }
+        });
+
     }
 }
 
