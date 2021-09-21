@@ -218,6 +218,22 @@
         <item name="android:background">@drawable/ic_expand</item>
     </style>
 
+    <style name="switch_notify">
+        <item name="android:layout_width">325dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginLeft">34dp</item>
+        <item name="android:layout_marginRight">34dp</item>
+        <item name="android:background">@drawable/ic_switch_icon</item>
+    </style>
+
+    <style name="Arrow">
+        <item name="android:layout_width">325dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginLeft">34dp</item>
+        <item name="android:layout_marginRight">34dp</item>
+        <item name="android:background">@drawable/ic_arrow_right1</item>
+    </style>
+
     <style name="config">
         <item name="android:layout_width">325dp</item>
         <item name="android:layout_height">55dp</item>
