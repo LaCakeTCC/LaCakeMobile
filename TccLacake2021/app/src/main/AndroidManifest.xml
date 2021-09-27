@@ -60,13 +60,14 @@
 
         <activity android:name=".tela_pagamento" android:screenOrientation="portrait"
             android:parentActivityName=".fragment_profile">
-        </activity>
-
-        <activity android:name=".tela_principal" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity android:name=".tela_principal" android:screenOrientation="portrait">
+
         </activity>
 
         <activity android:name=".tela_profile" android:screenOrientation="portrait"
