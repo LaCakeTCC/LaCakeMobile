@@ -84,7 +84,8 @@
         android:textColor="@color/vermelhoForte"
         android:textSize="25sp"
 
-        app:drawableStartCompat="@drawable/ic_endereco_icon"
+        app:drawableStartCompat="@drawable/endereco2"
+        android:drawableTint="@color/vermelhoForte2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/profile_picture" />
 
@@ -100,7 +101,8 @@
         android:drawablePadding="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/address"
-        app:drawableStartCompat="@drawable/ic_metodopgto" />
+        android:drawableTint="@color/vermelhoForte2"
+        app:drawableStartCompat="@drawable/ic_creditcard" />
 
     <TextView
         android:id="@+id/cleans"
@@ -114,7 +116,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/paymethod"
         android:drawablePadding="10dp"
-        app:drawableStartCompat="@drawable/ic_fav" />
+        android:drawableTint="@color/vermelhoForte2"
+        app:drawableStartCompat="@drawable/ic_heart" />
     <TextView
         android:id="@+id/contacts"
         android:layout_width="wrap_content"
@@ -127,7 +130,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cleans"
         android:drawablePadding="10dp"
-        app:drawableStartCompat="@drawable/ic_configuracoes_profile"
+        app:drawableStartCompat="@drawable/ic_settings2"
+        android:drawableTint="@color/vermelhoForte2"
         />
 
 

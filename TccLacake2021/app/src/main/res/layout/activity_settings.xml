@@ -62,19 +62,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
             android:drawablePadding="10dp"
             android:text="@string/notifications"
             android:textColor="@color/vermelhoForte2"
             android:textSize="25sp"
-            app:drawableStartCompat="@drawable/ic_notify" />
+            app:drawableStartCompat="@drawable/ic_notify_icon" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/mais_botao"
             style="@style/switch_notify"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="5dp" />
+            />
 
     </RelativeLayout>
 
@@ -96,7 +97,7 @@
             android:text="@string/about_app"
             android:textColor="@color/vermelhoForte2"
             android:textSize="25dp"
-            app:drawableStartCompat="@drawable/ic_sobre" />
+            app:drawableStartCompat="@drawable/ic_info" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/mais_botao_sobre"
@@ -126,7 +127,7 @@
             android:text="@string/clean_history"
             android:textColor="@color/vermelhoForte2"
             android:textSize="25dp"
-            app:drawableStartCompat="@drawable/ic_lixo" />
+            app:drawableStartCompat="@drawable/ic_trash" />
 
     </RelativeLayout>
 
@@ -143,12 +144,12 @@
             android:id="@+id/contacts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:drawablePadding="10dp"
             android:text="@string/contact_us"
             android:textColor="@color/vermelhoForte2"
-            android:textSize="25dp"
-            app:drawableStartCompat="@drawable/ic_faleconosco" />
+            android:textSize="25sp"
+            app:drawableStartCompat="@drawable/ic_chat" />
 
         <androidx.appcompat.widget.AppCompatButton
             style="@style/Arrow_right"
@@ -156,7 +157,7 @@
             android:layout_marginTop="5dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_alignParentRight="true" />
+            android:layout_alignParentEnd="true" />
 
     </RelativeLayout>
 
@@ -173,12 +174,12 @@
             android:id="@+id/exits"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
             android:drawablePadding="10dp"
             android:text="@string/leave"
             android:textColor="@color/vermelhoForte2"
             android:textSize="25dp"
-            app:drawableStartCompat="@drawable/ic_sair" />
+            />
 
     </RelativeLayout>
 

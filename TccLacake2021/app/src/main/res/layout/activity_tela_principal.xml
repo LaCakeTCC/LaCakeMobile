@@ -276,11 +276,12 @@
         app:layout_constraintEnd_toEndOf="@id/menu_inferior"
         app:layout_constraintStart_toStartOf="@id/menu_inferior">
 
-        <ImageButton
-            android:id="@+id/botaoHome"
-            style="@style/btHome"
-            android:layout_width="40dp"
-            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/btHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home1"
+            app:tint="@color/branco1" />
 
         <TextView
             android:id="@+id/texthome"
@@ -292,14 +293,15 @@
             android:layout_marginTop="40dp"
             />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/botaoNavegacao"
-            style="@style/btGps"
+            android:src="@drawable/ic_compass"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
-            android:layout_toRightOf="@id/botaoHome" />
+            app:tint="@color/branco1"
+            android:layout_toRightOf="@id/btHome" />
 
         <TextView
             android:id="@+id/textNavegação"
@@ -312,11 +314,12 @@
             android:layout_marginTop="40dp"
             />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/botaPedidos"
-            style="@style/btPedidos"
+            android:src="@drawable/ic_oders"
             android:layout_width="40dp"
             android:layout_height="40dp"
+            app:tint="@color/branco1"
             android:layout_toRightOf="@id/botaoNavegacao" />
 
         <TextView

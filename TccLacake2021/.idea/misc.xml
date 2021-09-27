@@ -26,6 +26,38 @@
         <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_product.xml" value="0.21197916666666666" />
         <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_profile.xml" value="0.21197916666666666" />
         <entry key="..\:/Desktop/LaCakeMobile/TccLacake2021/app/src/main/res/layout/fragment_settings.xml" value="0.23125" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_login.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_main.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_perfil_da_loja.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_profile.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_settings.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_cadastro.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_de_pedidos.xml" value="0.22" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_endereco.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_fale_conosco.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_favoritos.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_info_dados_de_localizacao.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_info_licenca_do_software.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_info_politica_de_privacidade.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_info_termos_e_condicoes.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_loading.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_pagamento.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_principal.xml" value="0.1693840579710145" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_sobre.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_sobre_colaboradores.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_sobre_fundadores.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_sobre_informacoes_legais.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_sobre_perguntas_frequentes.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_sobre_quem_somos.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_sobre_quero_ser_um_boleiro.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/activity_tela_sobre_versao_do_software.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/custom_toolbar.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/fragment_category.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/fragment_dashboard.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/fragment_home.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/fragment_notifications.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Eduardo/Documents/ProjetosAndroid/lacake-mobile/TccLacake2021/app/src/main/res/layout/fragment_product.xml" value="0.192481884057971" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/drawable-v24/appbar.xml" value="0.2203125" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/drawable/appbar.xml" value="0.16666666666666666" />
         <entry key="..\:/xampp/htdocs/Leo/TCC/LACAKE/MOBILE/LaCakeMobile/TccLacake2021/app/src/main/res/drawable/container_components.xml" value="0.16666666666666666" />
