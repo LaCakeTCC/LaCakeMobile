@@ -66,7 +66,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
-        ImageButton b1 = (ImageButton) findViewById(R.id.button_config);
+        ImageView b1 = (ImageView) findViewById(R.id.button_config);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,7 +75,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
         });
 
-        ImageButton b2 = (ImageButton) findViewById(R.id.botaoHome);
+        ImageView b2 = (ImageView) findViewById(R.id.btHome);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -83,7 +83,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 startActivity(it);
             }
         });
-        ImageButton b3 = (ImageButton) findViewById(R.id.botaoNavegacao);
+        ImageView b3 = (ImageView) findViewById(R.id.botaoNavegacao);
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -91,7 +91,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 startActivity(it);
             }
         });
-        ImageButton b4 = (ImageButton) findViewById(R.id.botaPedidos);
+        ImageView b4 = (ImageView) findViewById(R.id.botaPedidos);
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

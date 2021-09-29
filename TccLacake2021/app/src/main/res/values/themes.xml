@@ -133,6 +133,17 @@
         <item name="android:layout_marginTop">10dp</item>
     </style>
 
+    <style name="Edit_Text3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="searchIcon">@drawable/ic_pesquisa_icon</item>
+        <item name="android:background">@drawable/barra_de_pesquisa</item>
+        <item name="closeIcon">@drawable/ic_x_icon</item>
+        <item name="queryBackground">@null</item>
+        <item name="submitBackground">@null</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
     <style name="textContainer">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -239,7 +250,7 @@
         <item name="android:layout_height">55dp</item>
         <item name="android:layout_marginLeft">34dp</item>
         <item name="android:layout_marginRight">34dp</item>
-        <item name="android:background">@drawable/ic_configura__es</item>
+        <item name="android:background">@drawable/ic_settings_sharp_icon</item>
     </style>
 
     <style name="voltar">

@@ -47,24 +47,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-
-        <EditText
+        <androidx.appcompat.widget.SearchView
             android:id="@+id/barra_de_pesquisa"
-            style="@style/Edit_Text2"
+            style="@style/Edit_Text3"
+            android:paddingLeft="-6dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@id/button_config"
             android:layout_toRightOf="@id/foto_de_perfil"
-            android:hint="Pesquise bolos e lojas" />
+            android:singleLine="true"
+            app:iconifiedByDefault="false"
+            app:queryHint="Pesquise Bolos ou Lojas" />
+<!--        <EditText-->
+<!--            android:id="@+id/barra_de_pesquisa"-->
+<!--            style="@style/Edit_Text2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_toLeftOf="@id/button_config"-->
+<!--            android:layout_toRightOf="@id/foto_de_perfil"-->
+<!--            android:hint="Pesquise bolos e lojas"-->
+<!--            android:singleLine="true"-->
+<!--            app:drawableStartCompat="@drawable/ic_pesquisa_icon"-->
+<!--            android:drawablePadding="10dp"/>-->
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button_config"
             style="@style/config"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentRight="true"
             android:layout_marginLeft="12dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="19dp"
             android:layout_marginRight="3dp" />
 
         <androidx.cardview.widget.CardView
@@ -295,13 +308,13 @@
 
         <ImageView
             android:id="@+id/botaoNavegacao"
-            android:src="@drawable/ic_compass"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
-            app:tint="@color/branco1"
-            android:layout_toRightOf="@id/btHome" />
+            android:layout_toRightOf="@id/btHome"
+            android:src="@drawable/ic_compass"
+            app:tint="@color/branco1" />
 
         <TextView
             android:id="@+id/textNavegação"
@@ -316,11 +329,11 @@
 
         <ImageView
             android:id="@+id/botaPedidos"
-            android:src="@drawable/ic_oders"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            app:tint="@color/branco1"
-            android:layout_toRightOf="@id/botaoNavegacao" />
+            android:layout_toRightOf="@id/botaoNavegacao"
+            android:src="@drawable/ic_oders"
+            app:tint="@color/branco1" />
 
         <TextView
             android:id="@+id/textPedidos"

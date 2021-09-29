@@ -7,6 +7,7 @@ import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import br.com.itb.tcclacake2021.ui.login.LoginActivity;
@@ -25,7 +26,7 @@ public class perfil_da_loja  extends AppCompatActivity{
                 startActivity(it);
             }
         });
-        ImageButton b2 = (ImageButton) findViewById(R.id.botaoHome);
+        ImageView b2 = (ImageView) findViewById(R.id.btHome);
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,7 +34,7 @@ public class perfil_da_loja  extends AppCompatActivity{
                 startActivity(it);
             }
         });
-        ImageButton b3 = (ImageButton) findViewById(R.id.botaoNavegacao);
+        ImageView b3 = (ImageView) findViewById(R.id.botaoNavegacao);
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,7 +42,7 @@ public class perfil_da_loja  extends AppCompatActivity{
                 startActivity(it);
             }
         });
-        ImageButton b4 = (ImageButton) findViewById(R.id.botaPedidos);
+        ImageView b4 = (ImageView) findViewById(R.id.botaPedidos);
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
